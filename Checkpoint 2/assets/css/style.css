@@ -1,0 +1,55 @@
+.jumbotron {
+  text-align: center;
+  padding: 60px;
+  border-bottom: black 20px solid;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  object-fit: cover;
+}
+#caption {
+  font-size: 2.5vw;
+}
+#title {
+  font-weight: bolder;
+  font-size: 5vw;
+}
+.main-container {
+  display: flex;
+  padding-top: 100px;
+}
+#dashes {
+  font-weight: bolder;
+  font-size: 80px;
+}
+#game {
+  flex-basis: 50%;
+  text-align: center;
+}
+#pokemon {
+  flex-basis: 50%;
+  text-align: center;
+}
+.scoreboard{
+  display: flex;
+  justify-content: center;
+}
+.scores{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+footer {
+  text-align: center;
+  font-size: 10px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+@media (max-width: 768px){
+  .main-container{
+      flex-direction: column;
+      align-items: center;
+  }
+}

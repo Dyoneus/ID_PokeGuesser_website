@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>PokeGuesser</title>
+</head>
+<body>
+    <div class="jumbotron" style="background-color: red; color: white">
+        <h1 id="title">Who's that pokemon?</h1>
+        <p id="caption">Press any letter to get started!</p>
+      </div>
+    <div class="main-container">
+
+        <div id="pokemon">
+            <img id="pokeMonster" src="" alt="pokemon">
+        </div>
+        <div id="game">
+            <div>
+                <h2>WHO'S THAT POKEMON?</h2>
+            </div>
+            <div>
+                <p id="dashes"></p>
+            </div>
+            <div class="scoreboard">
+                <ul class="scores">
+                    <li>LETTERS USED: <span id="used"></span></li>
+                    <li>ATTEMPTS: <span id="attempts"></span></li>
+                    <li>WINS: <span id="wins"></span></li>
+                    <li>LOSSES: <span id="losses"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<script src="./assets/javascript/game.js"></script>
+<script src="./assets/javascript/api.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
