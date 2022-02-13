@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-      <head>
+    <head>
             <!-- Compiled and minified CSS -->
             <link rel="stylesheet" 
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
@@ -12,5 +12,26 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
             integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
             crossorigin="anonymous">
-      </head>
+    </head>
+
+    <style>
+        div.loadingSpin {
+        position: absolute;
+        top: 403px;
+        left: 830px;
+    }
+    </style>
+
+    <body style="height: 950px; width: 1800px; background-color: black">
+        <div
+              style="
+                    height: 950px;
+                    width: 1800px;
+                    background-image: url('assets/images/loadingAnimation.png');
+              "
+        ></div>
+        <div class="loadingSpin">
+              <img width="200" height="200" src="assets/images/loadingSpin.gif">
+        </div>
+  </body>
 </html>
