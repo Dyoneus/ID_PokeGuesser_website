@@ -14,34 +14,38 @@
             crossorigin="anonymous">
       </head>
 
-<body>
-    <div class="jumbotron" style="background-color: red; color: white">
-        <h1 id="title">Who's that pokemon?</h1>
-        <p id="caption">Press any letter to get started!</p>
-      </div>
-    <div class="main-container">
+      <style>
+          div.asoluteTb{
+              top: 693px;
+              left: 630px;
+              width: 200px;
+              height: 100px;
+          }
+          div.submitBtn{
+              top: 695px;
+              left: 1230px;
+              width: 200px;
+              height: 100px;
+          }
+      </style>
+<body style = "height: 950px; width: 1800px; background-color: black"> 
+    <div
+        style="
+            height: 950px;
+            width: 1800px;
+            background-image: url('assets/images/CompositeLayer.png');
+        "
+    ></div>
 
-        <div id="pokemon">
-            <img id="pokeMonster" src="" alt="pokemon">
-        </div>
-        <div id="game">
-            <div>
-                <h2>WHO'S THAT POKEMON?</h2>
-            </div>
-            <div>
-                <p id="dashes"></p>
-            </div>
-            <div class="scoreboard">
-                <ul class="scores">
-                    <li>LETTERS USED: <span id="used"></span></li>
-                    <li>ATTEMPTS: <span id="attempts"></span></li>
-                    <li>WINS: <span id="wins"></span></li>
-                    <li>LOSSES: <span id="losses"></span></li>
-                </ul>
-            </div>
-        </div>
+    <div class="absoluteTb">
+        <input id="name" style="text-align:center; font-size:25px; width: 530px; height: 55px" type="text" />
     </div>
+
+    <div class="submitBtn">
+        <button type="button" class="btn btn-primary" style="font-size:25px; width: 150px; height: 55px" onclick="submitAction()">Submit</button>
+    </div>  
+</body>
+
 <script src="./assets/javascript/game.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
 </html>
