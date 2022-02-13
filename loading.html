@@ -50,4 +50,16 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"
       ></script>
+
+      <script>
+            setTimeout(function(){
+                  if(localStorage.getItem("gender") == "male"){
+                        window.location.href = "battlemale.html";
+                  }
+                  else{
+                        window.location.href = "battlefemale.html";
+                  }
+                  
+            }, 3000);
+      </script>
 </html>
