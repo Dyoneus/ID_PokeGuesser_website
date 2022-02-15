@@ -34,3 +34,9 @@ function findGetParameter(parameterName) {
           });
     return result;
 }
+
+var correct = findGetParameter('correct');
+console.log("file: finishfemale.html ~ line 121 ~ correct", correct)
+var pokemon = parseInt(findGetParameter('pokemon'));
+console.log("file: finishfemale.html ~ line 123 ~ pokemon", pokemon)
+var pokemonName = "";
