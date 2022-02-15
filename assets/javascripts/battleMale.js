@@ -18,3 +18,14 @@ var randomNumber = 0;
 if(localStorage.getItem("pokemonNumber") == undefined){
     localStorage.setItem("pokemonNumber", 0);
 }
+
+document.getElementById("numberOfPokemons").innerHTML = localStorage.getItem("pokemonNumber");
+var submitAction = function () {
+    let name = document.getElementById("name").value.toLowerCase();
+    if (name == pokemonName) {
+        localStorage.setItem("pokemonNumber", parseInt(localStorage.getItem("pokemonNumber")) + 1);
+        window.location.href = "finish.html?correct=true&pokemon=" + randomNumber;
+    } else {
+        window.location.href = "finish.html?correct=false&pokemon=" + randomNumber;
+    }
+};
