@@ -1,7 +1,9 @@
 # PokeGuesser
-Frontend Developer: Kelsie Chye
-Frontend Developer & Backend Developer: Ong Jia Yuan
-![Screen shot of the web app](assets/images/screen-shot.png)
+Frontend Developer: Kelsie Chye.
+
+Frontend Developer & Backend Developer: Ong Jia Yuan.
+
+![Screen shot of the web app](assets/images/username-screenshot.png)
 
 This is a site mostly for Pokémon enthusiasts or fans to test their Pokémon knowledge. Silhouettes of random Pokémon will be tossed at the user, with each accurate guess increasing the player's score.
 
@@ -25,16 +27,20 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
  
 ### Existing Features
 
-- Username input: Asks users for their username allowing for their score to be recorded under their username
+- Username input: 
+  - Asks users for their username allowing for their score to be recorded under their username
 ![Screen shot of the web app](assets/images/username-screenshot.png)
 
-- Gender selection: By selecting your gender here, it affects which Pokémon trainer you will be using later in the game
+- Gender selection: 
+  - By selecting your gender here, it affects which Pokémon trainer you will be using later in the game
 ![Screen shot of the web app](assets/images/gender-screenshot.png)
 
-- Loading screen: An animated loading screen for the users to see while the actual game is still loading
+- Loading screen: 
+  - An animated loading screen for the users to see while the actual game is still loading
 ![Screen shot of the web app](assets/images/loading-screenshot.png)
 
-- PokéGuesser: The PokéGuesser game where the user has to guess what the mystery Pokémon is and for every correct answer, they earn a point.
+- PokéGuesser: 
+  - The PokéGuesser game where the user has to guess what the mystery Pokémon is and for every correct answer, they earn a point.
 ![Screen shot of the web app](assets/images/battle-screenshot.png)
 ![Screen shot of the web app](assets/images/battlecorrect-screenshot.png)
 ![Screen shot of the web app](assets/images/battlewrong-screenshot.png)
@@ -61,11 +67,10 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
 
 ## Testing
 
+### User Testing
 1. Battle page:
     1. Try to submit pokemon names with jumbled letters such as capital and non capitalized letters and verify that the pokemon name will appear as correct
-
     2. Try to reload the website and check the scores, verify that the score has appeared to be reset
-
     3. Try to continue battle after each guesses by clicking anywhere on the screen or clicking on the system feedback box and verify that it will direct user back to the battle scene page
 
 ### Bugs/Problems encountered
@@ -81,13 +86,9 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
 
 4. Battle page:
    1. Pokémon trainer does not appear at the bottom left of the screen.
-
    2. Pokémon trainer does not appear at the correct position after user press submit after guessing the name of the Pokémon.
-
    3. Scores(No. of Pokemon) not incrementing during each correct guesses.
-
    4. System does not feedback whether user guessed correctly or wrongly.
-
    5. System does not redirect user back to battle page after each guesses.
 
 ## Credits
