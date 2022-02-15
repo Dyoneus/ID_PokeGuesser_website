@@ -1,0 +1,42 @@
+div.absoluteTb {
+    position: absolute;
+    top: 845px;
+    left: 780px;
+}
+div.submitBtn {
+    position: absolute;
+    top: 860px;
+    left: 1340px;
+}
+div.pokemon {
+    position: absolute;
+    top: 260px;
+    left: 1290px;
+}
+div.human {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+div.text1 {
+    position: absolute;
+    top: 770px;
+    left: 850px;
+}
+div.text2 {
+    position: absolute;
+    top: 830px;
+    left: 950px;
+}
+div.numberOfPokemons {
+    position: absolute;
+    top: 83px;
+    left: 490px;
+}
+#pokemon-image {
+    transform: scale(2.5);
+}
+
+.revealed #pokemon-image {
+    filter: none;
+}
