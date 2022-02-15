@@ -4,7 +4,8 @@ Frontend Developer: Kelsie Chye.
 Frontend Developer & Backend Developer: Ong Jia Yuan.
 
 ![Screen shot of the web app](assets/images/username-screenshot.png)
-### Project's Demo: [Click on this link to redirect to Project's Demo Page](https://dyoneus.github.io/PokeGuesser/)
+### Project's Demo Website: [Click on this link to redirect to Project's Demo Page](https://dyoneus.github.io/PokeGuesser/)
+### Project's Wireframe file: [Click on this link to redirect to Project's Wireframe](https://drive.google.com/file/d/1ymAI12iJnsq9wdsif6a4SLQAuB9XlphJ/view?usp=sharing)
 
 ## Introduction
 
