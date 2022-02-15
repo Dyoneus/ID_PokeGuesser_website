@@ -68,3 +68,4 @@ var pokemonName = "";
     }
 })();
 
+document.getElementById("numberOfPokemons").innerHTML = localStorage.getItem("pokemonNumber");
