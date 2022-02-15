@@ -29,3 +29,10 @@ var submitAction = function () {
         window.location.href = "finish.html?correct=false&pokemon=" + randomNumber;
     }
 };
+
+function getPokemonImage(number) {
+    return (
+        `https://raw.githubusercontent.com/PokeAPI/` +
+        `sprites/master/sprites/pokemon/${number}.png`
+    );
+}
