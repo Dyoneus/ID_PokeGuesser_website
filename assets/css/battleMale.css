@@ -1,3 +1,7 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
 div.absoluteTb {
     position: absolute;
     top: 845px;

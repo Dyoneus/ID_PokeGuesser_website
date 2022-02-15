@@ -1,3 +1,7 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
 div.absoluteTb {
     position: absolute;
     top: 845px;
@@ -15,7 +19,7 @@ div.pokemon {
 }
 div.human {
     position: absolute;
-    top: 120px;
+    top: 300px;
     left: 0px;
 }
 div.text1 {
