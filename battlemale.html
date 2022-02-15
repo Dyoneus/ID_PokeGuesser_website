@@ -8,19 +8,30 @@
             href="assets/css/battleMale.css"
             />
 
-            <link rel="stylesheet" 
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-            crossorigin="anonymous">
+            <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+            />
 
             <!-- Optional theme -->
-            <link rel="stylesheet" h
-            ref="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
-            crossorigin="anonymous">
+            <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous"
+            />
       </head>
 
+      
       <body style="height: 950px; width: 1800px; background-color: black">
+
+            <!-- Music not autoplaying for Chrome because of Chrome policy -->
+            <audio autoplay muted>
+                  <source src="./assets/audios/battleMusic.mp3" type="audio/mpeg">
+            </audio>
+
             <div
                   style="
                         height: 950px;
@@ -31,7 +42,6 @@
             <div class="pokemon">
                   <img id="pokemon-image" src="" />
             </div>
-
             <div class="absoluteTb">
                   <input
                         id="name"
@@ -78,7 +88,6 @@
             crossorigin="anonymous"
       ></script>
 
-      <script 
-            src="./assets/javascripts/battleMale.js"
+      <script src="./assets/javascripts/battleMale.js"
       ></script>
 </html>

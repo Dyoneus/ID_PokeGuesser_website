@@ -1,71 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" 
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-        crossorigin="anonymous">
+      <head>
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" h
-        ref="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
-        crossorigin="anonymous">
-    </head>
-    
-    <style>
-        div.male {
-            position: absolute;
-            top: 635px;
-            left: 770px;
+            <!-- Optional theme -->
+            <link rel="stylesheet" 
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+            integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" 
+            crossorigin="anonymous">
+      </head>
+
+      <style>
+            div.male {
+                position: absolute;
+                top: 635px;
+                left: 770px;
+            }
+            div.female {
+                position: absolute;
+                top: 635px;
+                left: 1100px;
+            }
+      </style>
+
+      <body style="height: 950px; width: 1800px; background-color: black">
+            <div
+                  style="
+                        height: 950px;
+                        width: 1800px;
+                        background-image: url('assets/images/Gender.png');
+                  "
+            ></div>
+            <div class="male">
+                <button type="button" class="btn btn-primary" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('male')">Male</button>
+            </div>
+            <div class="female">
+                <button type="button" class="btn btn-danger" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('female')">Female</button>
+            </div>
+      </body>
+      <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            crossorigin="anonymous"
+      ></script>
+      <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+      ></script>
+      <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+      ></script>
+      <script>
+        var setGender = function(gender){
+          localStorage.setItem("gender" , gender);
+          window.location.href = "loading.html";
         }
-        div.female {
-            position: absolute;
-            top: 635px;
-            left: 1100px;
-        }
-  </style>
-
-  <body style="height: 950px; width: 1800px; background-color: black">
-    <div
-          style="
-                height: 950px;
-                width: 1800px;
-                background-image: url('assets/images/Gender.png');
-          "
-    ></div>
-
-    <div class="male">
-        <button type="button" class="btn btn-primary" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('male')">Male</button>
-    </div>
-
-    <div class="female">
-        <button type="button" class="btn btn-danger" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('female')">Female</button>
-    </div>
-</body>
-
-<script
-    src="https://code.jquery.com/jquery-3.5.1.js"
-    crossorigin="anonymous"
-></script>
-
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-></script>
-
-<script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"
-></script>
-
-<script>
-    var setGender = function(gender){
-      localStorage.setItem("gender" , gender);
-      window.location.href = "loading.html";
-    }
-</script>
+      </script>
 </html>
