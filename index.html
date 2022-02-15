@@ -15,61 +15,60 @@
       </head>
 
       <style>
-          div.asoluteTb{
-              position: absolute;
-              top: 693px;
-              left: 630px;
-              width: 200px;
-              height: 100px;
-          }
-          div.submitBtn{
-              position: absolute;
-              top: 695px;
-              left: 1230px;
-              width: 200px;
-              height: 100px;
-          }
+      div.absoluteTb {
+            position: absolute;
+            top: 693px;
+            left: 630px;
+            width: 200px;
+            height: 100px;
+      }
+      div.submitBtn {
+            position: absolute;
+            top: 695px;
+            left: 1230px;
+            width: 200px;
+            height: 100px;
+      }
       </style>
-<body style = "height: 950px; width: 1800px; background-color: black"> 
-    <div
-        style="
-            height: 950px;
-            width: 1800px;
-            background-image: url('assets/images/CompositeLayer.png');
-        "
-    ></div>
 
-    <div class="absoluteTb">
-        <input id="name" style="text-align:center; font-size:25px; width: 530px; height: 55px" type="text" />
-    </div>
+      <body style="height: 950px; width: 1800px; background-color: black">
+            <div
+                  style="
+                        height: 950px;
+                        width: 1800px;
+                        background-image: url('assets/images/CompositeLayer.png');
+                  "
+            ></div>
+            <div class="absoluteTb">
+                  <input id="name" style="text-align:center; font-size:25px; width: 530px; height: 55px" type="text" />
+            </div>
+            <div class="submitBtn">
+                <button type="button" class="btn btn-primary" style="font-size:25px; width: 150px; height: 55px" onclick="submitAction()">Submit</button>
+            </div>  
+      </body>
 
-    <div class="submitBtn">
-        <button type="button" class="btn btn-primary" style="font-size:25px; width: 150px; height: 55px" onclick="submitAction()">Submit</button>
-    </div>  
-</body>
+      <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            crossorigin="anonymous"
+      ></script>
 
-<script
-    src="https://code.jquery.com/jquery-3.5.1.js"
-    crossorigin="anonymous"
-></script>
+      <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+      ></script>
 
-<script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-></script>
+      <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+      ></script>
 
-<script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"
-></script>
-
-<script>
-    var submitAction = function(){
-    let name = document.getElementById("name").value;
-    localStorage.setItem("name" , name);
-    window.location.href = "gender.html";
-    }
-</script>
+      <script>
+            var submitAction = function(){
+            let name = document.getElementById("name").value;
+            localStorage.setItem("name" , name);
+            window.location.href = "gender.html";
+          }
+      </script>
 </html>
