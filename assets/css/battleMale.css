@@ -29,7 +29,7 @@ div.numberOfPokemons {
     left: 490px;
 }
 #pokemon-image {
-    transform: scale(2.5);
+    transform: scale(3.5);
     filter: brightness(0);
     transition: filter 0.5s ease-out;
 }
