@@ -31,6 +31,12 @@
       </style>
 
       <body style="height: 950px; width: 1800px; background-color: black">
+            <audio id="buttonhover" 
+            src="assets/audios/buttonSoundHover.mp3" 
+            preload="auto">
+                  Your browser does not support the <code>audio</code> element.
+            </audio>
+
             <div
                   style="
                         height: 1000px;
@@ -39,10 +45,10 @@
                   "
             ></div>
             <div class="male">
-                <button type="button" class="btn btn-primary" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('male')">Male</button>
+                <button type="button" button id="play" class="btn btn-primary" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('male')">Male</button>
             </div>
             <div class="female">
-                <button type="button" class="btn btn-danger" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('female')">Female</button>
+                <button type="button" button id="play1" class="btn btn-danger" style="font-size:25px; width: 220px; height: 80px" onclick="setGender('female')">Female</button>
             </div>
       </body>
       <script
@@ -64,5 +70,38 @@
           localStorage.setItem("gender" , gender);
           window.location.href = "loading.html";
         }
+      </script>
+
+      <script>
+            // When user hover over a button
+            var playBtn = document.getElementById('play')
+            var playBtn1 = document.getElementById('play1'),
+            buttonhove = document.getElementById('buttonhover')
+	      audios = document.querySelectorAll('audio');
+            console.log(audios);
+
+            playBtn.addEventListener('mouseover', function() {
+            [].forEach.call(audios, function(audio) {
+            // do whatever
+            buttonhover.play();
+            });
+            }, false);
+
+            playBtn.addEventListener('mouseleave', function() {
+            buttonhover.pause();
+            buttonhover.currentTime = 0;
+            }, false);
+
+            playBtn1.addEventListener('mouseover', function() {
+            [].forEach.call(audios, function(audio) {
+            // do whatever
+            buttonhover.play();
+            });
+            }, false);
+
+            playBtn1.addEventListener('mouseleave', function() {
+            buttonhover.pause();
+            buttonhover.currentTime = 0;
+            }, false);
       </script>
 </html>

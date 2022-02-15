@@ -35,6 +35,11 @@
       </style>
 
       <body style="height: 950px; width: 1800px; background-color: black">
+            <audio id="buttonhover" 
+            src="assets/audios/buttonSoundHover.mp3" 
+            preload="auto">
+                  Your browser does not support the <code>audio</code> element.
+            </audio>
             <div
                   style="
                         height: 1000px;
@@ -46,7 +51,7 @@
                   <input id="name" style="text-align:center; font-size:25px; width: 530px; height: 55px" type="text" />
             </div>
             <div class="submitBtn">
-                <button type="button" class="btn btn-primary" style="font-size:25px; width: 150px; height: 55px" onclick="submitAction()">Submit</button>
+                <button type="button" button id="play" class="btn btn-primary" style="font-size:25px; width: 150px; height: 55px" onclick="submitAction()">Submit</button>
             </div>  
       </body>
 
@@ -73,5 +78,25 @@
             localStorage.setItem("name" , name);
             window.location.href = "gender.html";
           }
+      </script>
+
+      <script>
+            // When user hover over a button
+            var playBtn = document.getElementById('play'),
+            buttonhove = document.getElementById('buttonhover')
+	      audios = document.querySelectorAll('audio');
+            console.log(audios);
+
+            playBtn.addEventListener('mouseover', function() {
+            [].forEach.call(audios, function(audio) {
+            // do whatever
+            buttonhover.play();
+            });
+            }, false);
+
+            playBtn.addEventListener('mouseleave', function() {
+            buttonhover.pause();
+            buttonhover.currentTime = 0;
+            }, false);
       </script>
 </html>

@@ -22,7 +22,7 @@ We began with a simple welcome screen that requests your username. This is the p
 
 ## Features
 
-In the beginning, users can enter their unique user names to verify identities then get their Pokémon teams. If they don't have existing user names yet, this step will assist them in creating ones.
+In the beginning, users can enter their unique user names to verify identities then get their Pokémon teams. If they don't have existing user names yet, this step will assist them in creating ones. Hovering over buttons will have a sound to make it responsive!
 
 There will be a gender selection screen after user input their desired user names which will then affect the gender of your Pokémon trainer during the battle! 
 
@@ -50,8 +50,8 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
 
 ### Features Left to Implement
 
+- ~~Sound will be played when cursor hover to each of the buttons~~ (Completed)
 - Battle music will be played during guessing scene (In-development)
-- Sound will be played when cursor hover to each of the buttons
 - Saving score uniquely for each username
 
 ## Technologies Used

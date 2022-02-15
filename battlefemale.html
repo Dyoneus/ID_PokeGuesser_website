@@ -28,6 +28,11 @@
       
       <!-- Optional theme -->
       <body style="height: 1000px; width: 2000px; background-color: black">
+            <audio id="buttonhover" 
+            src="assets/audios/buttonSoundHover.mp3" 
+            preload="auto">
+                  Your browser does not support the <code>audio</code> element.
+            </audio>
 
             <!-- Music not autoplaying for chrome because of chrome policy -->
             <audio autoplay muted>
@@ -62,6 +67,7 @@
             <div class="submitBtn">
                   <button
                         type="button"
+                        button id="play"
                         class="btn btn-primary"
                         style="font-size: 25px; width: 150px; height: 55px"
                         onclick="submitAction()"
@@ -89,4 +95,24 @@
 
       <script src="./assets/javascripts/battleFemale.js"
       ></script>
+
+      <script>
+            // When user hover over a button
+            var playBtn = document.getElementById('play'),
+            buttonhove = document.getElementById('buttonhover')
+	      audios = document.querySelectorAll('audio');
+            console.log(audios);
+
+            playBtn.addEventListener('mouseover', function() {
+            [].forEach.call(audios, function(audio) {
+            // do whatever
+            buttonhover.play();
+            });
+            }, false);
+
+            playBtn.addEventListener('mouseleave', function() {
+            buttonhover.pause();
+            buttonhover.currentTime = 0;
+            }, false);
+      </script>
 </html>
