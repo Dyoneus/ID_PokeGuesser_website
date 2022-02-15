@@ -63,10 +63,9 @@
 ></script>
 
 <script>
-    var submitAction = function(){
-    let name = document.getElementById("name").value;
-    localStorage.setItem("name" , name);
-    window.location.href = "gender.html";
+    var setGender = function(gender){
+      localStorage.setItem("gender" , gender);
+      window.location.href = "loading.html";
     }
 </script>
 </html>
