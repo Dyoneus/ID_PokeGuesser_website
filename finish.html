@@ -24,10 +24,31 @@
             />
       </head>
 
-      <body>
-          
+      <body id="bodyId" style="height: 950px; width: 1800px; background-color: black">
+            <div
+                  style="
+                        height: 950px;
+                        width: 1800px;
+                        background-image: url('assets/images/FinishTemplate.png');
+                  "
+            ></div>
+            <div class="pokemon">
+                  <img id="pokemon-image" src="" />
+            </div>
+            <div class="human">
+                  <img id="human-image" height="1000" src="" />
+            </div>
+            <div class="numberOfPokemons">
+                  <label id="numberOfPokemons" style="font-size: 40px">0</label>
+            </div>
+            <div class="text1">
+                  <label id="text1" style="font-size: 50px">SAMPLE</label>
+            </div>
+            <div class="text2">
+                  <label id="text2" style="font-size: 50px">TEXT</label>
+            </div>
       </body>
-      
+
       <script
             src="https://code.jquery.com/jquery-3.5.1.js"
             crossorigin="anonymous"
@@ -45,7 +66,6 @@
             crossorigin="anonymous"
       ></script>
       
-      <script 
-            src="./assets/javascripts/endgame.js"
+      <script src="./assets/javascripts/endgame.js"
       ></script>
 </html>
