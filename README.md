@@ -4,6 +4,7 @@ Frontend Developer: Kelsie Chye.
 Frontend Developer & Backend Developer: Ong Jia Yuan.
 
 ![Screen shot of the web app](assets/images/username-screenshot.png)
+###Project's Demo:[PokemonGuesser](dyoneus.github.io/pokeguesser/) 
 
 This is a site mostly for Pokémon enthusiasts or fans to test their Pokémon knowledge. Silhouettes of random Pokémon will be tossed at the user, with each accurate guess increasing the player's score.
 
@@ -68,6 +69,7 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
 ## Testing
 
 ### User Testing
+
 1. Battle page:
     1. Try to submit pokemon names with jumbled letters such as capital and non capitalized letters and verify that the pokemon name will appear as correct
     2. Try to reload the website and check the scores, verify that the score has appeared to be reset
@@ -94,7 +96,7 @@ Loading screen will be shown before a wild Pokémon shows out with shadow! Guess
 ## Credits
 ### Media
 
-- The photos used in this site were obtained from:
+The photos used in this site were obtained from:
 - [Professor Oak](https://toppng.com/being-charismatic-and-popular-professor-oak-often-okido-pokemo-PNG-free-PNG-Images_217605)
   - Picture used for the user name page
 - [Professor Oak's House](https://bulbapedia.bulbagarden.net/wiki/Professor_Oak%27s_Laboratory)
