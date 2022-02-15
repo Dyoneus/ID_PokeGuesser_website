@@ -40,3 +40,31 @@ console.log("file: finishfemale.html ~ line 121 ~ correct", correct)
 var pokemon = parseInt(findGetParameter('pokemon'));
 console.log("file: finishfemale.html ~ line 123 ~ pokemon", pokemon)
 var pokemonName = "";
+
+(async () => {
+    const res = await fetch(
+          "https://pokeapi.co/api/v2/pokemon?limit=151"
+    );
+    const json = await res.json();
+
+    console.log(json.results);
+
+    document.getElementById("pokemon-image").src =
+          getPokemonImage(pokemon);
+    pokemonName = json.results[pokemon - 1].name;
+
+    if(correct == 'false'){
+          var text1 = "Oh no, it is " + pokemonName + ",";
+          var text2 = "let's try next Pokemon!";
+          document.getElementById("text1").innerHTML = text1;
+          document.getElementById("text2").innerHTML = text2;
+    }
+    else{
+          var text1 = "You got it! " + pokemonName + "!";
+          var text2 = "I choose you!";
+          document.getElementById("text1").innerHTML = text1;
+          document.getElementById("text2").innerHTML = text2;
+
+    }
+})();
+
