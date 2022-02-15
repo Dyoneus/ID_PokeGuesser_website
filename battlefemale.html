@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
       <head>
-      
             <!-- Compiled and minified CSS -->
             <link 
             rel="stylesheet" 
@@ -33,12 +32,7 @@
             preload="auto">
                   Your browser does not support the <code>audio</code> element.
             </audio>
-
-            <!-- Music not autoplaying for chrome because of chrome policy -->
-            <audio autoplay muted>
-                  <source src="./assets/audios/battleMusic.mp3" type="audio/mpeg">
-            </audio>
-
+            
             <div
                   style="
                         height: 1000px;
@@ -106,6 +100,7 @@
             playBtn.addEventListener('mouseover', function() {
             [].forEach.call(audios, function(audio) {
             // do whatever
+            buttonhover.volume = 0.5;
             buttonhover.play();
             });
             }, false);
