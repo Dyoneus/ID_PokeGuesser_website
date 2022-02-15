@@ -1,19 +1,16 @@
 # PokeGuesser
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This is a site mostly for Pokémon enthusiasts or fans to test their Pokémon knowledge. Silhouettes of random Pokémon will be tossed at the user, with each accurate guess increasing the player's score.
 
-Essentially, this part is your sales pitch.
+It is created in such a way that the user feels as though they are in a Pokémon battle where they must guess the unknown Pokémon they are battling. It is an interactive design that also allows users to choose their username and gender, which customizes the Pokémon trainer with whom they are battling. 
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website application's goal is to build something that Pokemon enthusiasts would like. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+As fellow pokemon fans, we chose to go with a design that would allow you to enjoy our guessing game with a layout similar to the pokémon battles of older generation pokémon franchise. We intended to provide a customizable playing experience because most of us gamers appreciate being able to customize our characters, which is why we included the ability to choose the gender of the pokemon trainers.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+We began with a simple welcome screen that requests your username. This is the point at which Professor Oak asks you for your name, signaling the start of your Pokemon adventure. Following that, they will ask you for your gender, which will also determine which Pokemon trainer you will use in the game. It would then take you to a loading screen before transitioning to the main guessing game.
 
 ## Features
 
