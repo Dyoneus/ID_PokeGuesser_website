@@ -6,6 +6,8 @@ Frontend Developer & Backend Developer: Ong Jia Yuan.
 ![Screen shot of the web app](assets/images/username-screenshot.png)
 ### Project's Demo: [Click on this link to redirect to Project's Demo Page](dyoneus.github.io/pokeguesser/) 
 
+## Introduction
+
 This is a site mostly for Pokémon enthusiasts or fans to test their Pokémon knowledge. Silhouettes of random Pokémon will be tossed at the user, with each accurate guess increasing the player's score.
 
 It is created in such a way that the user feels as though they are in a Pokémon battle where they must guess the unknown Pokémon they are battling. It is an interactive design that also allows users to choose their username and gender, which customizes the Pokémon trainer with whom they are battling. 
