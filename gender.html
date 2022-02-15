@@ -90,11 +90,6 @@
             });
             }, false);
 
-            playBtn.addEventListener('mouseleave', function() {
-            buttonhover.pause();
-            buttonhover.currentTime = 0;
-            }, false);
-
             playBtn1.addEventListener('mouseover', function() {
             [].forEach.call(audios, function(audio) {
             // do whatever
@@ -102,9 +97,19 @@
             });
             }, false);
 
+            // When user leave their cursor away from the button
+            /*
+            playBtn.addEventListener('mouseleave', function() {
+            buttonhover.pause();
+            buttonhover.currentTime = 0;
+            }, false);
+            */
+
+            /*
             playBtn1.addEventListener('mouseleave', function() {
             buttonhover.pause();
             buttonhover.currentTime = 0;
             }, false);
+            */
       </script>
 </html>
