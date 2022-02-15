@@ -4,7 +4,7 @@ Frontend Developer: Kelsie Chye.
 Frontend Developer & Backend Developer: Ong Jia Yuan.
 
 ![Screen shot of the web app](assets/images/username-screenshot.png)
-###Project's Demo:[PokemonGuesser](dyoneus.github.io/pokeguesser/) 
+### Project's Demo:[PokemonGuesser](dyoneus.github.io/pokeguesser/) 
 
 This is a site mostly for Pokémon enthusiasts or fans to test their Pokémon knowledge. Silhouettes of random Pokémon will be tossed at the user, with each accurate guess increasing the player's score.
 
