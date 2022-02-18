@@ -5,7 +5,7 @@ Frontend Developer & Backend Developer: Ong Jia Yuan.
 
 ![Screen shot of the web app](assets/images/username-screenshot.png)
 ### Project's Demo Website: [Click on this link to redirect to Project's Demo Page](https://dyoneus.github.io/ID_PokeGuesser_website/)
-### Project's Video Pitch: [Click on this link to redirect to Project's Video Pitch](https://drive.google.com/file/d/1VunI90wqOorSUPv7cedg5kdbrPnReZ42/view?usp=sharing)
+### Project's Video Pitch: [Click on this link to redirect to Project's Video Pitch](https://drive.google.com/file/d/11l_7vwg5QjnDuSVVQhRT4krC3TfniQgI/view?usp=sharing)
 ### Project's Wireframe file: [Click on this link to redirect to Project's Wireframe](https://drive.google.com/file/d/1ymAI12iJnsq9wdsif6a4SLQAuB9XlphJ/view?usp=sharing)
 
 ## Introduction
